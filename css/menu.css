@@ -1,0 +1,26 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+ background-image: url("img/site son.png");
+}
+
+}
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.brand, .nav a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+}

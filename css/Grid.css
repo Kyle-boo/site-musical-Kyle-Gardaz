@@ -1,0 +1,22 @@
+.albums ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+}
+
+.albums li {
+  border: 1px solid black;
+  position: relative;
+  padding-bottom: 100%; /* astuce pour avoir un ratio carré */
+}
+
+.albums img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+https://open.spotify.com/album/6pUg9RDDoVyQQVJ48FkmXz
+https://open.spotify.com/album/4JnL4N9xWOWrQIF7rCdEXH
